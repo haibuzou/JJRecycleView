@@ -7,7 +7,7 @@ import android.util.AttributeSet;
 /**
  * Created by Dante on 2016/5/2.
  */
-public class JJRecycleView extends RecyclerView{
+public class JJRecyclerView extends RecyclerView{
 
     public JJRecycleView(Context context) {
         this(context,null);
