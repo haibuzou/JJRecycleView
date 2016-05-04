@@ -9,15 +9,15 @@ import android.util.AttributeSet;
  */
 public class JJRecyclerView extends RecyclerView{
 
-    public JJRecycleView(Context context) {
+    public JJRecyclerView(Context context) {
         this(context,null);
     }
 
-    public JJRecycleView(Context context, AttributeSet attrs) {
+    public JJRecyclerView(Context context, AttributeSet attrs) {
         this(context, attrs,0);
     }
 
-    public JJRecycleView(Context context, AttributeSet attrs, int defStyle) {
+    public JJRecyclerView(Context context, AttributeSet attrs, int defStyle) {
         super(context, attrs, defStyle);
     }
 
