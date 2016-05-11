@@ -1,12 +1,16 @@
 package haibuzou.recycleviewlibrary;
 
+import android.content.Context;
 import android.support.v7.widget.RecyclerView;
 import android.view.ViewGroup;
 
-/**
- * Created by Dante on 2016/5/2.
- */
+
 public class JJAdapter extends RecyclerView.Adapter<CommonViewHolder>{
+
+
+    public JJAdapter(Context context,int layoutResId) {
+
+    }
 
     @Override
     public CommonViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
