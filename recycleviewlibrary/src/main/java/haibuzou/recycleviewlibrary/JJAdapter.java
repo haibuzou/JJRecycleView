@@ -22,7 +22,6 @@ public abstract class JJAdapter<T> extends RecyclerView.Adapter<CommonViewHolder
     }
 
 
-
     @Override
     public CommonViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
         View view = View.inflate(context,layoutResId,null);
