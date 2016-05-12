@@ -8,7 +8,6 @@ import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
 
-    private RecycleAdapter recycleAdapter;
     private RecyclerView recyclerView;
     private List<String> dataList;
 
@@ -20,6 +19,7 @@ public class MainActivity extends AppCompatActivity {
         for (int i = 0; i < 10; i++) {
             dataList.add(i,"item"+i);
         }
+
 
     }
 }
