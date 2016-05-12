@@ -22,7 +22,7 @@ public class JJRecyclerView extends RecyclerView {
     /**
      * 设置recycleview的布局方式
      */
-    public void setLayoutManager(LayoutManager layoutManager) {
+    public void setLayout(LayoutManager layoutManager) {
         if (layoutManager != null)
             setLayoutManager(layoutManager);
     }
