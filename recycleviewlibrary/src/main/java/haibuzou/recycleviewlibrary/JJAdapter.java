@@ -24,6 +24,7 @@ public abstract class JJAdapter<T> extends RecyclerView.Adapter<CommonViewHolder
 
     @Override
     public CommonViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
+        //最后的parent viewgroup设置为null，如果不设置为null 导致 The specified child already has a parent 错误
         View view = View.inflate(context,layoutResId,null);
         return new CommonViewHolder(view);
     }
