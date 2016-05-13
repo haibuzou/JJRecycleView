@@ -3,6 +3,7 @@ package haibuzou.recycleviewlibrary;
 import android.content.Context;
 import android.support.v7.widget.RecyclerView;
 import android.util.AttributeSet;
+import android.view.View;
 
 
 public class JJRecyclerView extends RecyclerView {
@@ -27,6 +28,21 @@ public class JJRecyclerView extends RecyclerView {
             setLayoutManager(layoutManager);
     }
 
+    public void setHeadView(View headView){
+
+    }
+
+    public void setFootView(View footView){
+
+    }
+
+    public void setEmptyView(View emptyView){
+
+    }
+
+    public void setHeadRefreshEnable(){
+
+    }
 
 
 
