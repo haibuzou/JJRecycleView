@@ -2,6 +2,7 @@ package haibuzou.recycleviewlibrary;
 
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -20,16 +21,34 @@ public class CommonViewHolder extends RecyclerView.ViewHolder{
         return itemView.findViewById(layoutId);
     }
 
-    public void setText(int layoutId,String text){
-        ((TextView)itemView.findViewById(layoutId)).setText(text);
+    public CommonViewHolder setText(int layoutId,String text){
+        ((TextView)getViewById(layoutId)).setText(text);
+        return this;
     }
 
-    public void setImage(int layoutId,int resId){
-        ((ImageView)itemView.findViewById(layoutId)).setImageResource(resId);
+    public CommonViewHolder setImage(int layoutId,int resId){
+        ((ImageView)getViewById(layoutId)).setImageResource(resId);
+        return this;
     }
 
-    public void setTextColor(int layoutId,int color){
-        ((TextView)itemView.findViewById(layoutId)).setTextColor(color);
+    public CommonViewHolder setTextColor(int layoutId,int color){
+        ((TextView)getViewById(layoutId)).setTextColor(color);
+        return this;
+    }
+
+    public CommonViewHolder setButtonText(int layoutId,String text){
+        ((Button)getViewById(layoutId)).setText(text);
+        return this;
+    }
+
+    public CommonViewHolder setButtonTextColor(int layoutId,int color){
+        ((Button)getViewById(layoutId)).setTextColor(color);
+        return this;
+    }
+
+    public CommonViewHolder setBackgroudResourse(int layoutId,int resId){
+        getViewById(layoutId).setBackgroundResource(resId);
+        return this;
     }
 
 }
