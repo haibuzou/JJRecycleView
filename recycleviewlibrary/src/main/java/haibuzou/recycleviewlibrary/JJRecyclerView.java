@@ -4,9 +4,7 @@ import android.content.Context;
 import android.support.v7.widget.RecyclerView;
 import android.util.AttributeSet;
 
-/**
- * Created by Dante on 2016/5/2.
- */
+
 public class JJRecyclerView extends RecyclerView{
 
     public JJRecyclerView(Context context) {
