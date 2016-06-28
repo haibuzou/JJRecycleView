@@ -26,7 +26,7 @@ public class CommonViewHolder extends RecyclerView.ViewHolder{
         return this;
     }
 
-    public CommonViewHolder setImage(int layoutId,int resId){
+    public CommonViewHolder setImageResourse(int layoutId,int resId){
         ((ImageView)getViewById(layoutId)).setImageResource(resId);
         return this;
     }
