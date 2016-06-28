@@ -22,6 +22,8 @@ public class JJRecyclerView extends RecyclerView{
     }
 
 
+    public void addHeadView(){
 
+    }
 
 }
