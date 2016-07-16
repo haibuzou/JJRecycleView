@@ -28,21 +28,11 @@ public class JJRecyclerView extends RecyclerView {
             setLayoutManager(layoutManager);
     }
 
-    public void setHeadView(View headView){
-
-    }
-
-    public void setFootView(View footView){
-
-    }
 
     public void setEmptyView(View emptyView){
 
     }
 
-    public void setHeadRefreshEnable(){
-
-    }
 
 
 }

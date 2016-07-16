@@ -21,6 +21,14 @@ public abstract class JJAdapter<T> extends RecyclerView.Adapter<CommonViewHolder
         this.layoutResId = layoutResId;
     }
 
+    public void addHeadView(){
+
+    }
+
+    public void addFootView(){
+
+    }
+
 
     @Override
     public CommonViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
